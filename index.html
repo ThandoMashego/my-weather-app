@@ -13,8 +13,15 @@
 
 <div class="container">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city..." required  class="search-form-input"/>
+        <form class="search-form" id="search-form">
+
+            <input 
+            type="search" 
+            placeholder="Enter a city..." 
+            required  
+            class="search-form-input" 
+            id="search-form-input"/>
+
             <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
@@ -22,7 +29,7 @@
     <main>
         <div class="weather-app-data">
             <div>
-                <h1 class="weather-app-city">Cape Town</h1>
+                <h1 class="weather-app-city" id="weather-app-city">Cape Town</h1>
                 <p class="weather-app-details">
                 Tuesday 11:52, clear sky<br>
                 Humidity: <span>88%</span>, Wind: <span>0.89km/h</span>
@@ -44,7 +51,7 @@
         Hosted on <a href="https://github.com/ThandoMashego/my-weather-app">GitHub</a>
     </footer>
 </div>
-
+<script src="./src/index.js"></script>
 </body>
 
 </html>
